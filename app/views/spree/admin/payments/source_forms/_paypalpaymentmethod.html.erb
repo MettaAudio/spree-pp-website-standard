@@ -4,7 +4,6 @@
       submit_url = Spree::PaypalWebsiteStandard::Config.paypal_url
     end
 %>
-
 <%= form_tag submit_url do %> 
 
   <%- if(Spree::Order.use_encrypted_paypal_link?) %>
